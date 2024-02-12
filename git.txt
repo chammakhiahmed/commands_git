@@ -1,0 +1,370 @@
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo
+$ git init
+Initialized empty Git repository in C:/Users/Elife-DJE-103/Desktop/my_first_repo/.git/
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (master)
+$ git remote add origin https://github.com/chammakhiahmed/my_first_repo.git
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (master)
+$ echo "# my_first_repo" >> README.md
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (master)
+$ git commit -m "My first commit learning git"
+[master (root-commit) b613262] My first commit learning git
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (master)
+$ git branch -M main
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 242 bytes | 242.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chammakhiahmed/my_first_repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ echo "chammakhi ahmed" >> git/README.md
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git add .
+warning: in the working copy of 'git/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git commit -m "My second time using git"
+[main b1c6622] My second time using git
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git/README.md
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 347 bytes | 347.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chammakhiahmed/my_first_repo.git
+   b613262..b1c6622  main -> main
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ mkdir python java c_sharp
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ touch python/app.py python/main.py c_sharp/program.cs
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ mkdir bash
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ cd bash
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ touch best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ nano best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ touch school
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ nano school
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ cd
+
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~
+$ cd ~/Desktop/my_first_repo
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git add .
+warning: in the working copy of 'bash/best', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'bash/school', LF will be replaced by CRLF the next time Git touches it
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git commit -m "first code"
+[main 9d65052] first code
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 4 insertions(+)
+ create mode 100644 bash/best
+ create mode 100644 bash/school
+ create mode 100644 c_sharp/program.cs
+ create mode 100644 python/app.py
+ create mode 100644 python/main.py
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 612 bytes | 306.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chammakhiahmed/my_first_repo.git
+   b1c6622..9d65052  main -> main
+
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git checkout -b Update_branch
+Switched to a new branch 'Update_branch'
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (Update_branch)
+$ git branch -a
+* Update_branch
+  main
+  remotes/origin/main
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (Update_branch)
+$ touch bash/98
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (Update_branch)
+$ cd bash
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ nano best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ nano school
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ git add .
+warning: in the working copy of 'bash/best', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'bash/school', LF will be replaced by CRLF the next time Git touches it
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ git commit -m "My personal work"
+[Update_branch c2b9cc0] My personal work
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 bash/98
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ git push -u origin Update_branch
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 446 bytes | 446.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Update_branch' on GitHub by visiting:
+remote:      https://github.com/chammakhiahmed/my_first_repo/pull/new/Update_branch
+remote:
+To https://github.com/chammakhiahmed/my_first_repo.git
+ * [new branch]      Update_branch -> Update_branch
+branch 'Update_branch' set up to track 'origin/Update_branch'.
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (Update_branch)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ cd bash
+bash: cd: bash: No such file or directory
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ nano best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo/bash (main)
+$ cd ..
+
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ rm -rf python
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git add .
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git commit -m "Hot fix"
+[main 3f782c6] Hot fix
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+ delete mode 100644 python/app.py
+ delete mode 100644 python/main.py
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 441 bytes | 441.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chammakhiahmed/my_first_repo.git
+   9d65052..3f782c6  main -> main
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1016 bytes | 127.00 KiB/s, done.
+From https://github.com/chammakhiahmed/my_first_repo
+   3f782c6..babc806  main       -> origin/main
+Updating 3f782c6..babc806
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ touch up_to_date
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ nano up_to_date
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git add up_to_date
+warning: in the working copy of 'up_to_date', LF will be replaced by CRLF the next time Git touches it
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git commit -m "How to be up to date in git"
+[main e49eb6b] How to be up to date in git
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 up_to_date
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 291 bytes | 291.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/chammakhiahmed/my_first_repo.git
+   babc806..e49eb6b  main -> main
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git merge Update_branch
+Auto-merging bash/best
+CONFLICT (content): Merge conflict in bash/best
+Automatic merge failed; fix conflicts and then commit the result.
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main|MERGING)
+$ nano bash/best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main|MERGING)
+$ nano bash/best
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main|MERGING)
+$ git add .
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main|MERGING)
+$ git commit -m "ready to be deployed"
+[main e06798f] ready to be deployed
+ Committer: Elife-DJE-103 <Elife-DJE-103@Elife.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+
+Elife-DJE-103@Elife-DJE-103 MINGW64 ~/Desktop/my_first_repo (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 280 bytes | 280.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/chammakhiahmed/my_first_repo.git
+   e49eb6b..e06798f  main -> main
+
